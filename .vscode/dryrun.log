@@ -1,0 +1,10 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `c:/Users/Mohamed Mehery/Documents/GitHub/AVR-cpp'
+g++        -o .cpp
+avr-g++ -mmcu=atmega32 -Os -o .o .cpp
+ 
+avr-object -j .text -j .data -O ihex .o .hex
+echo "Success compile"
+ls
+make.exe: Leaving directory `c:/Users/Mohamed Mehery/Documents/GitHub/AVR-cpp'
+ 
