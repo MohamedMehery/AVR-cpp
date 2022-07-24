@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 
 # This program built for i386-pc-mingw32
 
-# Make data base, printed on Sat Jul 23 16:46:21 2022
+# Make data base, printed on Sat Jul 23 21:12:22 2022
 
 # Variables
 
@@ -46,6 +46,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # makefile (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 TMP = C:\Users\MOHAME~1\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
@@ -80,7 +82,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_440_KBZNWENQZMHBMJYI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4780_MVGDXGGDAGMAJJKO
 # environment
 COMPUTERNAME = DESKTOP-2G0JE3A
 # environment
@@ -200,13 +202,15 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 440
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 4780
 # environment
 MSMPI_LIB64 = C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-2G0JE3A
 # variable set hash-table stats:
-# Load=97/1024=9%, Rehash=0, Collisions=10/118=8%
+# Load=99/1024=10%, Rehash=0, Collisions=10/120=8%
 
 # Pattern-specific Variable Values
 
@@ -214,11 +218,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-2G0JE3A
 
 # Directories
 
-# . (key c:/Users/Mohamed Mehery/Documents/GitHub/AVR-cpp, mtime 1658587459): 12 files, no impossibilities.
+# . (key c:/Users/Mohamed Mehery/Documents/GitHub/AVR-cpp, mtime 1658603542): 16 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1658574584): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1658574611): 99 files, no impossibilities so far.
 
-# 186 files, no impossibilities in 3 directories.
+# 190 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -244,7 +248,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-23 16:45:00
+#  Last modified 2022-07-23 16:52:07
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -262,7 +266,7 @@ compile: .cpp
 #  File has not been updated.
 #  commands to execute (from `makefile', line 3):
 	avr-g++ -mmcu=atmega32 -Os -o $(TARGET).o $(SRC)
-	avr-object -j .text -j .data -O ihex $(TARGET).o $(TARGET).hex
+	avr-objcopy -j .text -j .data -O ihex $(TARGET).o $(TARGET).hex
 	@echo "Success compile"
 	@ls
 	
@@ -295,7 +299,7 @@ clean:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat Jul 23 16:46:21 2022
+# Finished Make data base on Sat Jul 23 21:12:22 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.

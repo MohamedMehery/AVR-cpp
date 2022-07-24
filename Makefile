@@ -7,4 +7,4 @@ compile: $(SRC)
 
 clean:
 	@rm $(TARGET).hex $(TARGET).O
-	@echo "DONE"
+	@echo "DONE"		#	@ to hide the echo command from terminal
