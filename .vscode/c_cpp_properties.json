@@ -14,7 +14,7 @@
             "compilerPath": "C:\\WinAVR-20100110\\bin\\avr-c++.exe",
             "cStandard": "c17",
             "cppStandard": "c++20",
-            "intelliSenseMode": "windows-msvc-x64",
+            "intelliSenseMode": "${default}",
             "configurationProvider": "go2sh.cmake-integration"
         }
     ],

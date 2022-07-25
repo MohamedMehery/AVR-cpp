@@ -1,7 +1,7 @@
 
 #include "led.hpp"
 
-int main(void)
+int main(int argc , char ** argv)
 {
     LED_DIO led1;   //led init 
     led1(2);   //change pin number to pin 2 
