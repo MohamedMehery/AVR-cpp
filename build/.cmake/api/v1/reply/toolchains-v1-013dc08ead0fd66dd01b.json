@@ -1,0 +1,59 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/WinAVR-20100110/lib/gcc/avr/4.3.3/include",
+						"C:/WinAVR-20100110/lib/gcc/avr/4.3.3/include-fixed",
+						"C:/WinAVR-20100110/avr/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/WinAVR-20100110/lib/gcc/avr/4.3.3/avr5",
+						"C:/WinAVR-20100110/avr/lib/avr5",
+						"C:/WinAVR-20100110/lib/gcc/avr/4.3.3",
+						"C:/WinAVR-20100110/lib/gcc",
+						"C:/WinAVR-20100110/avr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"m",
+						"gcc",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "C:/WinAVR-20100110/bin/avr-g++.exe",
+				"version" : "4.3.3"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

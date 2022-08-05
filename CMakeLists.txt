@@ -17,11 +17,9 @@ set(SRCS ./src/main.cpp
         ./src/led.cpp)
 message("${SRCS}")
 ##############################################################################################
-set(CMAKE_PREFIX_PATH "C:/Users/Mohamed Mehery/Downloads/Compressed/googletest/build")
 add_executable(${PROJECT_NAME}.elf ${SRCS})
 target_include_directories(${PROJECT_NAME}.elf PUBLIC hdr/)
-target_link_libraries(${PROJECT_NAME}.elf PRIVATE gtest)
-target_link_libraries(${PROJECT_NAME}.elf PRIVATE gtest_main)
+
 
 #fromating
 message("${FLASH_FLAGS}")

@@ -33,8 +33,8 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/WinAVR-20100110/bin/avr-g++.exe
+//C++ compiler
+CMAKE_CXX_COMPILER:STRING=avr-g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
